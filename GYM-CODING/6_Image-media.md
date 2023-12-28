@@ -24,8 +24,9 @@
 
 - `src`는 필수 사항이며 이미지 경로를 나타냄
 - `alt`는 선택 사항이며 이미지를 설명하는 텍스트
-  - 이미지를 불러올 수 없을 때 `alt` 내용을 표시
-    ![alt 표시 확인](https://velog.velcdn.com/images/oigu529/post/d1304a99-bc54-425f-a2b6-3076b296df9f/image.png)
+- 이미지를 불러올 수 없을 때 `alt` 내용을 표시
+
+![alt 표시 확인](https://velog.velcdn.com/images/oigu529/post/d1304a99-bc54-425f-a2b6-3076b296df9f/image.png)
 
 ⭐ 현재 폴더의 상위 폴더를 불러올 때는 ../을 사용함..
 
