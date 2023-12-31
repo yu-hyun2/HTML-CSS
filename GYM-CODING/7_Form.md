@@ -364,21 +364,6 @@ textarea는 default값을 value가 아닌 컨텐츠 안에 작성</textarea
 
 ![textarea](image/7_textarea1.png)
 
-<fieldset>
-        <legend>자기소개서</legend>
-        <textarea name="" id="" cols="30" rows="10">
-textarea는 default값을 value가 아닌 컨텐츠 안에 작성</textarea
-        >
-        <textarea name="" id="" cols="15" rows="5">
-12345678901234567890
-2
-3
-4
-5
-6
-7
-        </textarea>
-      </fieldset>
 
 <br>
 <br>
