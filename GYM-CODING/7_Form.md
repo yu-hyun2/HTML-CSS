@@ -50,9 +50,11 @@
 ![required](image/7_required.png)
 
 UI에서 **readonly**와 **disabled**의 차이
+
 ![readonly_disabled](image/7_readonly_disabled.png)
 
 url에 **placeholder** 사용
+
 ![placeholder](image/7_placeholder.png)
 
 <br>
