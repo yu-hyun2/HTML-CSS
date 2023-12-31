@@ -114,7 +114,7 @@ url에 **placeholder** 사용
 
 <br>
 
-### ✔️ hidden
+## ✔️ hidden
 
 `name=""` 이름을 갖는 `value` 안의 값을 전달
 
@@ -133,7 +133,7 @@ url에 **placeholder** 사용
 
 <br>
 
-### ✔️ file
+## ✔️ file
 
 제출할 파일 선택 기능
 
