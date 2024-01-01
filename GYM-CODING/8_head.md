@@ -16,6 +16,7 @@ head 안에 배치할 수 있는 요소들을 살펴 보자 ~
 ```
 
 짠~~~ 요렇게 탭 아이콘이 바뀜!
+
 ![favicon](image/8_favicon.png)
 
 <br>
