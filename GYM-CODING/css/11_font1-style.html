@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Style 1</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+
+      /* * {
+        margin: 0px;
+        padding: 0px;
+      } */
+
+      html {
+        /* font-family: serif, monospace; */
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        font-size: 16px;
+      }
+      .title {
+        font-size: 25px;
+        color: hsl(155, 75%, 66%);
+      }
+      .content {
+        font-size: 15px;
+      }
+      /* 기울임 */
+      .font-iltalic {
+        font-style: italic;
+      }
+      /* 굵게 */
+      .font-weight-bold {
+        font-weight: bold;
+      }
+      /* 굵기 조정 */
+      .font-weight-300 {
+        font-weight: 300;
+      }
+      /* 소문자를 작은 대문자로 바꿈 */
+      .font-variant {
+        font-variant: small-caps;
+      }
+      .subtitle {
+        font-size: 20px;
+      }
+      .subtitle-rem {
+        font-size: 2rem;
+      }
+      .subtitle-em {
+        font-size: 2em;
+      }
+      .article {
+        font-size: 10px;
+      }
+      .rectangle.width {
+        width: 100vw;
+        height: 100px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">나만 없어 고양이</h2>
+    <p class="content">
+      1. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <p class="content font-iltalic">
+      2. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <p class="content font-weight-bold">
+      3. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <p class="content font-weight-300">
+      4. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <p class="content font-variant">HELLO, my sweetheart</p>
+    <hr />
+    <h2>px</h2>
+    <p class="subtitle">
+      1. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <h2>rem</h2>
+    <p class="subtitle-rem">
+      2. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+    </p>
+    <h2>em</h2>
+    <div class="article">
+      <p class="subtitle-em">
+        3. 갖고 싶다 고양이 나만 없어 고양이 다 있는데 고양이 고양이 야옹
+      </p>
+    </div>
+    <hr />
+    <!-- View Width-->
+    <h2>vw</h2>
+    <div class="rectangle width"></div>
+    <!-- View Height -->
+    <h2>vh</h2>
+    <div class="rectangle height"></div>
+    <hr />
+  </body>
+</html>
