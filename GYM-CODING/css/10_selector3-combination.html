@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Combination</title>
+    <style>
+      /* 자손 결합자 */
+      /* section li {
+        color: blue;
+      }
+      section span {
+        color: red;
+      }
+      /* 자식 결합자 */
+      section > ul > li {
+        color: blue;
+      }
+
+      /* 일반 형제 결합자 */
+      p ~ span {
+        color: red;
+      }
+
+      /* 인접 형제 결합자 */
+      p + code {
+        font-size: 30px;
+      }
+      .first + li {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>고양이</h1>
+      <hr />
+      <p>위키백과, 우리 모두의 백과사전.</p>
+      <p>고양이는 식육목 고양이과에 속하는 포유류이다.</p>
+      <ul>
+        <li>어원</li>
+        <li>생태</li>
+        <li>습성</li>
+        <li>생활</li>
+        <li>문화: <span>출처</span>가 분명하지 않습니다.</li>
+      </ul>
+    </section>
+    <hr />
+    <section>
+      <span>이건 빨강이 아닙니다.</span>
+      <p>여기 문단이 있습니다.</p>
+      <code>여긴 코드가 있는 곳이에요.</code>
+      <span>이제 빨강입니다.</span>
+      <code>다시 코드가 있어요.</code>
+      <span>얘도 빨강입니다.</span>
+    </section>
+    <hr />
+    <ul>
+      <li class="first">one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+  </body>
+</html>
