@@ -1,0 +1,79 @@
+.section > input[type='radio'] {
+  /* 대괄호는 속성 선택자로 특정 속성값 선택 가능 */
+  display: none; /*라디오 버튼 보이지 않게 숨기기*/
+}
+
+.section .wrap {
+  max-height: 960px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+  width: 960px;
+
+  font-size: 0;
+}
+
+.section .wrap > ul {
+  padding: 0;
+}
+
+.section .slist > li {
+  display: inline-block;
+  transition: all 0.5s;
+  position: relative;
+}
+.section .slist > li > img {
+  width: 100%;
+}
+
+.section .wrap .slist label {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px;
+  cursor: pointer;
+}
+
+.section .wrap .slist .top {
+  left: 30px;
+  background: url('../../PROJECT/slide_1/img/left.png') center center / 100%
+    no-repeat;
+}
+
+.section .wrap .slist .bottom {
+  right: 30px;
+  background: url('../../PROJECT/slide_1/img/right.png') center center / 100%
+    no-repeat;
+}
+
+.section [id="'s1"]:checked ~ .wrap .slist > li {
+  transform: translateY(0%);
+}
+.section [id="'s2"]:checked ~ .wrap .slist > li {
+  transform: translateY(-500%);
+}
+.section [id="'s3"]:checked ~ .wrap .slist > li {
+  transform: translateY(-100%);
+}
+.section [id="'s4"]:checked ~ .wrap .slist > li {
+  transform: translateY(-200%);
+}
+
+/* .section .page [class*='page'] {
+  display: none;
+} */
+.page1 {
+  display: block;
+}
+.page2 {
+  display: block;
+}
+.page3 {
+  display: block;
+}
+.page4 {
+  display: block;
+}
