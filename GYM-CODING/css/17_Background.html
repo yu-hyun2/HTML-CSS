@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <style>
+      .red {
+        background-color: rgba(255, 0, 0, 0.562);
+        width: 120px;
+        height: 120px;
+      }
+      .image {
+        background-image: url('../image/17_background.jpg');
+        background-repeat: repeat;
+        background-position: top right;
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        display: inline-block;
+        overflow-y: scroll;
+      }
+
+      .attachment-scroll {
+        background-attachment: scroll;
+      }
+      .attachment-fixed {
+        background-attachment: fixed;
+      }
+      .attachment-local {
+        background-attachment: local;
+      }
+      .background-size {
+        width: 300px;
+        height: 300px;
+        background-image: url('../image/17_background0.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        border: 1px solid black;
+      }
+      .linear-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid red;
+        background: linear-gradient(45deg, red 10%, blue 80%, yellow 100%);
+      }
+
+      .radial-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid blue;
+        background: radial-gradient(
+          circle at 10% 50%,
+          white,
+          yellow,
+          red,
+          blue
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <h3>background-color</h3>
+    <div class="red"></div>
+
+    <h3>background-image</h3>
+    <div class="image attachment-scroll">
+      <h4>scroll</h4>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim
+      molestias sapiente facilis impedit itaque nihil eum soluta possimus qui
+      optio accusantium, expedita aspernatur laboriosam ipsa numquam sit sunt
+      dolorum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+      quaerat eaque delectus minima saepe cupiditate dolorem soluta tenetur
+      nisi. Magni distinctio eveniet quo corrupti natus dolor ipsa eum.
+      Mollitia, quae?
+    </div>
+
+    <div class="image attachment-fixed">
+      <h4>fixed</h4>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim
+      molestias sapiente facilis impedit itaque nihil eum soluta possimus qui
+      optio accusantium, expedita aspernatur laboriosam ipsa numquam sit sunt
+      dolorum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+      quaerat eaque delectus minima saepe cupiditate dolorem soluta tenetur
+      nisi. Magni distinctio eveniet quo corrupti natus dolor ipsa eum.
+      Mollitia, quae?
+    </div>
+
+    <div class="image attachment-local">
+      <h4>local</h4>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim
+      molestias sapiente facilis impedit itaque nihil eum soluta possimus qui
+      optio accusantium, expedita aspernatur laboriosam ipsa numquam sit sunt
+      dolorum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+      quaerat eaque delectus minima saepe cupiditate dolorem soluta tenetur
+      nisi. Magni distinctio eveniet quo corrupti natus dolor ipsa eum.
+      Mollitia, quae?
+    </div>
+    <h3>background-size</h3>
+    <div class="background-size"></div>
+    <h3>linear-gradient</h3>
+    <div class="linear-gradient"></div>
+
+    <h3>radial-gradient</h3>
+    <div class="radial-gradient"></div>
+  </body>
+</html>
