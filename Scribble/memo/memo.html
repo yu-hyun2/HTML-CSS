@@ -3,53 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>position</title>
+    <title>Practice2</title>
     <style>
       main,
       section,
       article,
       div {
-        margin: 0 auto;
-        padding: 20px;
-        background-color: grey;
         border: 1px solid black;
-        max-width: 800px;
-        font-size: 30px;
+        padding: 20px;
+      }
+      main {
+        margin: 0 auto;
+        background-color: #4d5159;
       }
       section {
-        background-color: cyan;
+        background-color: #7b838c;
       }
       article {
-        background-color: green;
+        background-color: #c7cfd9;
       }
       div {
-        background-color: white;
+        background-color: #a4b3bf;
       }
-      div.static {
+      .static {
+        position: static;
+        top: 0px;
+        left: 20px;
       }
-      div.relative {
+      .relative {
         position: relative;
         left: 20px;
       }
-      div.absolute {
+      .absolute {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        right: 20px;
+        z-index: 1;
         background-color: salmon;
       }
-      div.fixed {
+      .fixed {
         position: fixed;
-        bottom: 50px;
-        right: 50px;
-        background-color: blue;
-        color: grey;
       }
-      div.sticky {
-        background-color: white;
+      .sticky {
+        position: sticky;
+        top: 50px;
       }
     </style>
   </head>
   <body>
+    <h1>끄적끄적</h1>
     <main>
       main
       <section>
