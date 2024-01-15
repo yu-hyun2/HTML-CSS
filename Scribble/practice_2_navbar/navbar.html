@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Navbar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+      * {
+        margin: 0 auto;
+        padding: 0;
+      }
+      nav {
+        background-color: #59331d;
+        font-family: 'Merriweather';
+      }
+      ul {
+        list-style: none;
+      }
+
+      li {
+        list-style: none;
+        display: flex;
+        padding: 20px;
+      }
+      nav a {
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: none; /* 링크 밑줄 제거 */
+      }
+      div {
+        background-color: #8c6f56;
+        text-align: center;
+        height: 100vh; /* 화면 높이의 100%로 반응형 설정 */
+      }
+      .item {
+        display: flex;
+        background-color: #d9c5b4;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a>Home</a>
+          <a>News</a>
+          <a>History</a>
+          <a>Project</a>
+          <a>My page</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <div class="item">Hi TV</div>
+    </div>
+  </body>
+</html>
