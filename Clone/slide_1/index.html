@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="section">
+      <!-- 슬라이드 영역 -->
+      <input type="radio" name="slide" id="slide01" checked />
+      <!-- checked: 첫 번째 표시할 화면 -->
+      <input type="radio" name="slide" id="slide02" />
+      <input type="radio" name="slide" id="slide03" />
+      <input type="radio" name="slide" id="slide04" />
+
+      <div class="slidewrap">
+        <ul class="slidelist">
+          <li>
+            <a>
+              <!-- 배너처럼 클릭으로 이동 가능 -->
+              <!-- 슬라이드 1 버튼 기준으로 왼쪽 버튼은 슬라이드3 오른쪽 버튼은 슬라이드2 -->
+              <img src="./img/slide01.jpg" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./img/slide02.jpg" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./img/slide03.jpg" />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="./img/slide04.jpg" />
+            </a>
+          </li>
+          <div class="slide-control">
+            <div class="control01">
+              <label for="slide03" class="left"></label>
+              <label for="slide02" class="right"></label>
+            </div>
+            <div class="control02">
+              <label for="slide01" class="left"></label>
+              <label for="slide03" class="right"></label>
+            </div>
+            <div class="control03">
+              <label for="slide02" class="left"></label>
+              <label for="slide04" class="right"></label>
+            </div>
+            <div class="control04">
+              <label for="slide03" class="left"></label>
+              <label for="slide01" class="right"></label>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

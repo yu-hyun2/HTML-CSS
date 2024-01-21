@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Noto Sans KR';
+}
+
+/* header */
+/*---------------------------------------------------------------------------------------------*/
+body > header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+body > header > nav {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 1.2rem 2rem;
+  justify-content: center;
+}
+
+/* section */
+/*---------------------------------------------------------------------------------------------*/
+main > article > section {
+  height: 100vh;
+}
+.section_1 {
+  background-color: antiquewhite;
+}
+
+.section_2 {
+  background-color: beige;
+}
+
+body > header > nav > a,
+ul,
+div {
+  display: inline-flex;
+  margin: 0;
+}
+
+body > header > nav > a,
+ul > li,
+div > span {
+  margin-right: 20px;
+}
+
+/* footer */
+/*---------------------------------------------------------------------------------------------*/
+body > footer {
+  height: 50vh;
+}
+body > footer > article > section {
+  justify-content: flex-start;
+  margin: 0;
+}
+body > footer > article {
+  display: flex;
+  flex-direction: column;
+  max-width: 76.8rem;
+}
+.footsection {
+  display: grid;
+}
