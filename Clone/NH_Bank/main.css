@@ -1,3 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: '돋움', Dotum, Helvetica, AppleGothic, sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#header,
+#container,
+#quick,
+#footer {
+  border: 3px solid gray;
+}
+/* 
+#footer {
+  border-top: 1px solid #ddd;
+} */
+
 #header {
-  font-family: Helvetica, sans-serif;
+  width: 980px;
+  min-height: 110px;
+}
+
+#container {
+  width: 100%;
+}
+.logo {
+  background-color: lightgray;
+}
+
+.header_login {
+  background-color: rgb(194, 194, 194);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  background-color: lightcyan;
+}
+
+.sec_1 {
+  background-color: rgba(173, 209, 250, 0.571);
+}
+
+.sec_2 {
+  background-color: #ddd;
+}
+
+.sec_3 {
+  background-color: whitesmoke;
 }
