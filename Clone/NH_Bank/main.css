@@ -34,7 +34,7 @@ div {
   background-color: lightgray;
 }
 
-.header_login {
+#header_login {
   background-color: rgb(194, 194, 194);
 }
 
@@ -43,6 +43,50 @@ h2,
 h3,
 h4 {
   background-color: lightcyan;
+}
+
+#utilmenu .lang ul li.country_01 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_usa.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_02 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_japan.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_03 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_china.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_04 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_vietnam.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_05 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_th.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_06 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_indonesia.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_07 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_poccnr.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_08 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_mohron.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_09 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_cambodia.png')
+    no-repeat 0 50%;
+}
+#utilmenu .lang ul li.country_10 a {
+  background: none;
+}
+#utilmenu .lang ul li.country_11 a {
+  background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_hanoi.png')
+    no-repeat 0 50%;
 }
 
 .sec_1 {

@@ -9,44 +9,127 @@
   <body>
     <!---------------- header ----------------->
     <div id="header">
-      <div id="header_top">
+      <div class="header_top">
         <div class="logo">
-          <h1>NH Bank</h1>
-          <ul></ul>
+          <h1>
+            <a href="https://banking.nonghyup.com/nhbank.html">
+              <img
+                src="https://banking.nonghyup.com/images/IP/global/logo_new.jpg"
+                alt="NH Bank"
+              />
+            </a>
+          </h1>
+          <ul>
+            <li class="ip">
+              <ul class="big">
+                <li>
+                  (디폴트)
+                  <a href="https://banking.nonghyup.com/nhbank.html">개인</a>
+                </li>
+                <li class="off">
+                  <a href="https://banking.nonghyup.com/servlet/IHMN0001R.view"
+                    >큰글</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="ic">
+              <span>
+                <a href="https://ibz.nonghyup.com/">기업</a>
+              </span>
+            </li>
+            <li class="card">
+              <span>
+                <a href="https://card.nonghyup.com/IpCc0001M.act">카드</a>
+              </span>
+            </li>
+          </ul>
         </div>
 
-        <div class="session_info">
+        <div id="session_info">
           <h4>로그인 정보</h4>
-          <div class="header_login">
+          <div id="header_login">
             <!-- 로그아웃상태일때 -->
-            <ul>
-              <li>로그인</li>
-              <li>인증센터</li>
+            <ul class="btn">
+              <li class="login">
+                <a href="https://banking.nonghyup.com/servlet/IPCNA001R.view">
+                  <span>로그인</span>
+                </a>
+              </li>
+              <li class="auth">
+                <a
+                  href="https://banking.nonghyup.com/servlet/content/ip/ca/IPCA0001M.thtml"
+                >
+                  <span>인증센터</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div class="utilmenu">
+        <div id="utilmenu">
           <h4>유틸메뉴</h4>
-          <div class="language"></div>
+          <div class="lang">
+            <a href="#" onclick="">Language</a>
+            <ul>
+              <li class="country_01"><a href="#">English</a></li>
+              <li class="country_02"><a href="#">日本語</a></li>
+              <li class="country_03"><a href="#">中國語</a></li>
+              <li class="country_04"><a href="#">Vietnam</a></li>
+              <li class="country_05"><a href="#">ไทย</a></li>
+              <li class="country_06"><a href="#">Indonesia</a></li>
+              <li class="country_07"><a href="#">Россия</a></li>
+              <li class="country_08"><a href="#">МОНГОЛ</a></li>
+              <li class="country_09"><a href="#">Cambodia</a></li>
+              <li class="country_10"><a href="#">business(Eng)</a></li>
+              <li class="country_11">
+                <a href="https://www.nhbank.com/nhmn/EN_NHMN_01.do"
+                  >About NHBank</a
+                >
+              </li>
+            </ul>
+          </div>
           <ul class="icon_favorite">
-            별(즐겨찾기)
+            <li class="fav">
+              <a href="#">즐겨찾기</a>
+              <div>
+                <p>로그인 후 이용 가능합니다.</p>
+                <a href="">즐겨찾기목록 닫기</a>
+              </div>
+            </li>
           </ul>
-          <div class="icon_setup">톱니바퀴(셋업)</div>
-          <div class="icon_search">돋보기(서치)</div>
+          <div class="icon_setup">
+            <a href="#"
+              >설정(누르면 팝업)
+              <img
+                src="https://banking.nonghyup.com/images/IH/common/btn-set.png"
+                alt="설정"
+              />
+            </a>
+          </div>
+          <div class="icon_search">
+            돋보기(서치)
+            <a href="#">
+              <img
+                src="https://banking.nonghyup.com/images/IP/global/btn_header_search.gif"
+                alt="검색"
+              />
+            </a>
+          </div>
         </div>
 
-        <div class="globalmenu">
-          globalmenu
+        <div id="globalmenu">
           <h4>외환, 퇴직연금, 보안센터, 고객센터</h4>
-          <ul>
-            <li>외환</li>
-            <li>퇴직연금</li>
-            <li>보안센터</li>
-            <li>고객센터</li>
+          <ul class="menu">
+            <li id="titleOn1"><a href="#">외환</a></li>
+            <li id="titleOn2"><a href="#">퇴직연금</a></li>
+            <li id="titleOn3"><a href="#">보안센터</a></li>
+            <li id="titleOn4"><a href="#">고객센터</a></li>
           </ul>
         </div>
       </div>
+
+      <div class="search_box_area">돋보기 누르면 뜨는 창</div>
 
       <div id="head_gnb">
         <h4>조회 이체 공과금 ~~ 주메뉴</h4>
@@ -95,11 +178,11 @@
       <div>
         footer_list_wrap
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>사고신고</li>
+          <li>고객의소리[전자민원]</li>
+          <li>고객전자서명</li>
+          <li>인터넷뱅킹오류해결</li>
+          <li>영업점찾기</li>
         </ul>
       </div>
       <div>inner</div>
