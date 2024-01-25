@@ -10,17 +10,34 @@
         padding: 0;
         background-color: lightgrey;
       }
+
+      span {
+        padding-left: 50px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 40px;
+      }
+      body > div {
+        display: inline-block;
+        padding-left: 50px;
+      }
+      body > div > div:nth-child(1) {
+        margin-top: 50px;
+        font-weight: bold;
+      }
       .outline,
       .box {
         width: 60px;
         height: 60px;
+        display: inline-block;
       }
       .outline {
         border: 3px solid yellow;
-        margin: 0 auto;
+        margin: 30px;
       }
       .box {
         background-color: blue;
+        color: aliceblue;
       }
       .box1 {
         transform: translateX(-20px);
@@ -36,6 +53,33 @@
       }
       .box4 {
         transform: skewX(15deg);
+      }
+      .box5 {
+        transform: rotateX(45deg);
+      }
+
+      .box6 {
+        transform: rotateY(45deg);
+      }
+
+      .box7 {
+        transform: rotateZ(45deg);
+      }
+
+      .box8 {
+        transform: rotate(-45deg);
+      }
+      .outline-box5 {
+        perspective: 50px;
+      }
+      .outline-box6 {
+        perspective: 50px;
+      }
+      .outline-box7 {
+        perspective: 50px;
+      }
+      .outline-box8 {
+        perspective: 50px;
       }
 
       /* Transition */
@@ -55,17 +99,77 @@
     </style>
   </head>
   <body>
-    <div class="outline">
-      <div class="box box1"></div>
+    <!-- <div class="outline">
+      <div class="box box1">box 1</div>
     </div>
     <div class="outline">
-      <div class="box box2"></div>
+      <div class="box box2">box 2</div>
     </div>
     <div class="outline outline-box3">
-      <div class="box box3"></div>
+      <div class="box box3">box 3</div>
     </div>
     <div class="outline">
-      <div class="box box4"></div>
+      <div class="box box4">box 4</div>
+    </div> -->
+    <span>X</span>
+    <div>
+      <div style="display: block">rotateX(45deg)</div>
+      <div class="outline">
+        <div class="box box5">box 5</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotateY(45deg)</div>
+      <div class="outline">
+        <div class="box box6">box 6</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotateZ(45deg)</div>
+      <div class="outline">
+        <div class="box box7">box 7</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotate(-45deg)</div>
+      <div class="outline">
+        <div class="box box8">box 8</div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <span>O</span>
+    <div>
+      <div style="display: block">rotateX(45deg)</div>
+      <div class="outline outline-box5">
+        <div class="box box5">box 5</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotateY(45deg)</div>
+      <div class="outline outline-box6">
+        <div class="box box6">box 6</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotateZ(45deg)</div>
+      <div class="outline outline-box7">
+        <div class="box box7">box 7</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="display: block">rotate(-45deg)</div>
+      <div class="outline outline-box8">
+        <div class="box box8">box 8</div>
+      </div>
     </div>
   </body>
 </html>
