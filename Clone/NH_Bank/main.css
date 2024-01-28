@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   font-size: 12px;
   line-height: 16px;
-  font-family: '돋움', Dotum, Helvetica, AppleGothic, sans-serif;
+  font-family: 'Noto+Sans+KR';
+  text-decoration: none;
 }
 
 div {
@@ -23,29 +26,147 @@ div {
 } */
 
 #header {
-  width: 980px;
+  width: 100%;
   min-height: 110px;
+}
+
+/* header_top */
+
+.logo,
+.utilmenu {
+  position: absolute;
+}
+
+.header_top {
+  margin-top: 22px;
+  margin-inline: 160px;
 }
 
 #container {
   width: 100%;
 }
 .logo {
-  background-color: lightgray;
+  display: flex;
 }
+
+.logo > ul {
+  display: flex;
+  width: 270px;
+  height: 40px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo > ul > li {
+  padding-right: 30px;
+}
+.logo ul li a {
+  color: rgba(0, 0, 0, 0.686);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* .logo ul:nth-child(1) {
+  border: solid 1px #bbb;
+} */
+.logo .ip .big li {
+  padding: 5px 10px;
+  border: solid 1px #bbb;
+}
+.logo .ip .big li:nth-child(1) {
+  background-color: #2b65a8;
+}
+.logo .ip .big li:nth-child(1) a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.big,
+.off,
+.ic,
+.card {
+  display: flex;
+}
+
+#utilmenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* -header_top- */
+
+/* session_info */
 
 #header_login {
-  background-color: rgb(194, 194, 194);
+  font-weight: bold;
+  position: absolute;
+  top: 55px;
+  left: 160px;
+  margin-top: 15px;
+}
+.btn {
+  border: 1px solid #bbb;
+  background-color: #f8f8f8;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 25px;
+}
+.btn span {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.663);
 }
 
-h1,
-h2,
-h3,
+/* -session_info- */
+.icon_favorite,
+.icon_search,
+.icon_setup {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap; /* 가능한 영역 내에서 벗어나지 않게 여러 행으로 나누어 표현 */
+  align-content: center;
+}
+
+#lang {
+  font-size: 15px;
+  padding: 8px 18px;
+  border: solid 1px rgb(209, 209, 209);
+  background-color: #dddddd37;
+}
+
+#session_info,
+#globalmenu {
+  display: flex;
+}
+#globalmenu {
+}
+.menu {
+  font-weight: bold;
+  position: absolute;
+  top: 55px;
+  right: 160px;
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+}
+.menu li {
+  margin-left: 20px;
+}
+.menu li a {
+  color: #4b4e5a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  align-self: center;
+}
 h4 {
-  background-color: lightcyan;
+  display: none;
 }
 
-#utilmenu .lang ul li.country_01 a {
+/* link로 연결하려면 원상복귀하고... js로 연결해야할듯?.. -> 찾아보기 */
+#lang ul option.country_01 a {
   background: url('https://banking.nonghyup.com/images/CN/main_e_new/icon_usa.png')
     no-repeat 0 50%;
 }
