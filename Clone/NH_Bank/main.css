@@ -14,8 +14,6 @@ div {
   box-sizing: border-box;
 }
 
-#header,
-#container,
 #quick,
 #footer {
   border: 3px solid gray;
@@ -138,8 +136,7 @@ div {
 #globalmenu {
   display: flex;
 }
-#globalmenu {
-}
+
 .menu {
   font-weight: bold;
   position: absolute;
@@ -153,9 +150,24 @@ div {
   margin-left: 20px;
 }
 .menu li a {
-  color: #4b4e5a;
+  color: #696c76;
   font-size: 16px;
   font-weight: bold;
+}
+.gnb_box {
+  border: 1px solid rgba(0, 0, 0, 0.135);
+  padding: 10px;
+}
+.gnb_box ul {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 160px;
+}
+.gnb_box ul li {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  color: #4b4e5a;
 }
 
 h1 {
@@ -211,7 +223,8 @@ h4 {
 }
 
 .sec_1 {
-  background-color: rgba(173, 209, 250, 0.571);
+  background-color: #d0e5fe;
+  height: 500px;
 }
 
 .sec_2 {
@@ -220,4 +233,49 @@ h4 {
 
 .sec_3 {
   background-color: whitesmoke;
+}
+
+.quick_list {
+  position: absolute;
+  left: 50%;
+  bottom: -90px;
+  background: url('https://banking.nonghyup.com/images/IP/global/bg_quick_bank.png')
+    no-repeat;
+  margin-left: -600px;
+  width: 1200px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+}
+.quick_list ul {
+  display: flex;
+  align-items: center;
+}
+.quick_list ul li {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+.quick_list img {
+  padding-bottom: 15px;
+}
+.quick_list ul li div {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4b4e5a;
+}
+
+.bg_blue {
+  width: 50%;
+  height: 500px;
+  background-color: rgba(233, 243, 255, 0.733);
+}
+
+.text_area {
+  position: relative;
+  top: -500px;
+  left: 70px;
+}
+.inner_slide {
+  padding-top: 60px;
 }
